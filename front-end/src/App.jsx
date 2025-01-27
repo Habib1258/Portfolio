@@ -14,6 +14,7 @@ import Skills from './pages/Skills';
 import Contact from './pages/contact';
 import Loader from './port_comp/Loader';
 import ErrorPage from './pages/NotFoundPage';
+import Helmet from'react-helmet';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -31,6 +32,10 @@ function App() {
   const [showLoader, setshowLoader] = useState(false);
   return (
     <>
+      <Helmet>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8" />
+      </Helmet>
       <RouterProvider router={router} />
       <BrowserRouter>
       { showLoader ? <Loader/> : null}

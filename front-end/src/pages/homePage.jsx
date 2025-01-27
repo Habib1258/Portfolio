@@ -6,10 +6,15 @@ import Portfolio from '../component/portfolio'
 import Diplome from '../component/diplome'
 import Footer from '../component/footer'
 import Effect from '../component/effect'
+import { Helmet } from'react-helmet'
 
 const HomePage = () => {
   return (
-      <>
+    <>
+      <Helmet>
+        <title>Home - My Website</title>
+        <meta name="description" content="Welcome to my homepage" />
+      </Helmet>
         <Hero />
         <About />
         <Effect />
