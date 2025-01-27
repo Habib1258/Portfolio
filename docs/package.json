@@ -2,13 +2,17 @@
   "name": "react",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://habib1258.github.io/Portfolio/",
   "type": "module",
   "scripts": {
     "start": "react-scripts start",
     "dev": "vite --host",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
+    
   },
   "dependencies": {
     "@coreui/icons": "^3.0.1",
