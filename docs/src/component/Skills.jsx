@@ -16,9 +16,9 @@ import { GrMysql } from "react-icons/gr";
 const Skills = () => {
   return (
     <>
-        <section className='bg-custom-dark pt-16 lg:pt-36  '>
+        <section className='bg-custom-dark pt-16 lg:pt-36 w-full mx-auto overflow-x-hidden px-auto'> 
             <h1 className="text-2xl text-lime-400 underline underline-offset-8 ml-12 mb-16 lg:text-4xl lg:ml-48 2xl:px-[400px]">Skills</h1>
-            <div className="grid gap-2 grid-cols-1 ml-8 lg:ml-24 mt-6 justify-center sm:grid-cols-2 place-items-center lg:grid-cols-4 lg:gap-2 lg:px-48 2xl:px-[700px]">
+            <div className="grid gap-2 grid-cols-2 lg:ml-16 mt-6 justify-center sm:grid-cols-2 place-items-center lg:grid-cols-4 lg:gap-2 lg:px-48 2xl:px-[700px]">
               <div className="w-28 h-28 lg:w-48 lg:h-48  mb-6 p-2 lg:py-8 lg:px-8 shadow-xl bg-gray-700 rounded-xl justify-center ">
                 <FontAwesomeIcon icon={faPython} className='w-12 h-12 lg:w-24 lg:h-24 mt-4 mx-6 lg:mx-4 text-yellow-700' />
                 <h3 className=' text-sm lg:text-xl text-white pt-2 text-center lg:py-3'>Python</h3>

@@ -8,6 +8,7 @@ import { FaXTwitter } from "react-icons/fa6"
 const About = () => {
   return (
     <>
+      <section className='w-full mx-auto overflow-x-hidden px-auto'>
         <section className=" h-96 bg-custom-dark place-items-center 2xl:px-96">
             <div className='mx-16 relative lg:mx-96 lg:mr-96 place-items-center'>
                 <ul className="flex bg-lime-600 py-3 px-1 gap-6 lg:gap-16 justify-center rounded-xl ">
@@ -25,6 +26,7 @@ const About = () => {
                     where I gained programming skills in Python and C++. Additionally, I completed a networking course at ICT Towers and passed my CCNA exam. Along this journey, 
                     I discovered that I am a fast learner who thrives on challenges.</h2>
             </div>
+        </section>
         </section>
     </>
   )

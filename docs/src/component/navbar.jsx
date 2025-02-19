@@ -5,7 +5,7 @@ const Navbar = () => {
      
   return (
     <>
-      <nav className='bg-black flex '>
+      <nav className='bg-black flex w-full mx-auto overflow-x-hidden px-auto'>
         <Link className='cursor-pointer' to="/"><img className="h-auto w-36 lg:w-64 px-2 pt-4" src={ logo } alt="habib's logo" /></Link>
             <div className="list-none w-5/6">
                 <ul className="w-full lg:w-5/6 flex pt-6  gap-2 md:gap-8 place-content-center ">

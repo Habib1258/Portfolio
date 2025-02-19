@@ -64,8 +64,8 @@ export default {
         loader: 'loader 2s ease-in-out ',
       },
       screens: {
-        'sm': '320px ',
-        'lg': '1024px ',
+        'sm': '300px',
+        'lg': '1024px',
         '2xl': '2560px',
       },
       colors: {

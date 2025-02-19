@@ -11,17 +11,19 @@ import { Helmet } from'react-helmet'
 const HomePage = () => {
   return (
     <>
-      <Helmet>
-        <title>Home - My Website</title>
-        <meta name="description" content="Welcome to my homepage" />
-      </Helmet>
-        <Hero />
-        <About />
-        <Effect />
-        <Skills/>
-        <Portfolio />
-        <Diplome />
-        <Footer />
+      <section className='w-full mx-auto overflow-x-hidden px-auto'>
+          <Helmet>
+          <title>Home - My Website</title>
+          <meta name="description" content="Welcome to my homepage" />
+        </Helmet>
+          <Hero />
+          <About />
+          <Effect />
+          <Skills/>
+          <Portfolio />
+          <Diplome />
+          <Footer />
+      </section>
       </>
   )
 }

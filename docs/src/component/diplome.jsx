@@ -5,7 +5,7 @@ import licence from '../assets/images/dip.jpg'
 const Diplome = () => {
   return (
     <>
-        <section className="bg-custom-gray-dark drop-shadow-2xl shadow-lime-400	 pb-1 lg:pb-16">
+        <section className="bg-custom-gray-dark drop-shadow-2xl shadow-lime-400	 pb-1 lg:pb-16 w-full mx-auto overflow-x-hidden px-auto">
             <h1 className='text-2xl text-slate-100 font-bold ml-12 py-12 underline underline-offset-16 lg:ml-48 lg:text-4xl'>My Education :</h1>
             <div className='grid grid-cols-1 lg:grid-cols-2 2xl:px-48 '>
                 <div className='grid place-content-center'>

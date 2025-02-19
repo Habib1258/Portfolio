@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Contact = () => {
   return (
     <>
-          <section className='bg-custom-dark grid grid-cols-1 w-full mb-0'>
+          <section className='bg-custom-dark grid grid-cols-1 w-full mb-0 mx-auto overflow-x-hidden px-auto'>
               <div className="grid grid-cols-1 gap-8 lg:gap-20 px-24 pb-32 w-full bg-custom-light-dark border-y-4 border-lime-400 items-center">
                   <h1 className="text-xl text-lime-400 font-bold text-center lg:text-5xl lg:pt-12">
                         Contact Me
